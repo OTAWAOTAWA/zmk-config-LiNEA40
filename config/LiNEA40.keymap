@@ -82,7 +82,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,
+            //スクロール方向を逆転,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -92,12 +92,12 @@
         compatible = "zmk,combos";
 
         Ena {
-            bindings = <&none>;
+            bindings = <&kp LANGUAGE_1>;
             key-positions = <34 35>;
         };
 
         Ja {
-            bindings = <&none>;
+            bindings = <&kp LANGUAGE_2>;
             key-positions = <36 37>;
         };
     };
